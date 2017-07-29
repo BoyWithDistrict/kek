@@ -21,9 +21,10 @@ body {
 	font-family: Segoe Print, HelveticaMedium, sans-serif;
 	font-weight: normal;
 	color: #373737;
+    transt
 }
 
-page {
+.page {
     margin: 0px;
     padding: 0px;
 }
@@ -57,11 +58,12 @@ header {
 }
 
 #logo  {
-    font-size: 3vw;    
+    font-size: 48px;    
     color: #fff;
     margin: 32px 0px 0px 44px;
     display: inline-block;
     float: left;
+    opacity: 0.90;
 }
 
 .menu {
@@ -98,6 +100,7 @@ header {
 }
 
 .menu a {
+    text-decoration: none;
     color: #fff;
     display: inline-block;
     height: 45px;
